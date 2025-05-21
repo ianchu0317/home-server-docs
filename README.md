@@ -26,6 +26,10 @@ Contiene información general sobre el servidor, su propósito y su configuraci�
 ### Propósito
 El servidor es una máquina reciclada que corre Ubuntu Server LTS. Su objetivo principal es funcionar como alternativa privada a Google Photos mediante Immich. También se usará para alojar proyectos personales, respaldos automáticos, y otros servicios de utilidad para el hogar o el desarrollo.
 
+La ventaja de documentar es: 
+- Memoria de las configuraciones (ayudar mantenimiento)
+- Configurar otro server igual en el futuro
+
 
 ## Credenciales
 ### Usuarios
