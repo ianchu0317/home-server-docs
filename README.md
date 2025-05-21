@@ -23,18 +23,34 @@ Documentación para mi servidor de casa.
 
 Contiene información general sobre el servidor, su propósito y su configuración.
 
-
-## Información del servidor
 ### Propósito
 El servidor es una máquina reciclada que corre Ubuntu Server LTS. Su objetivo principal es funcionar como alternativa privada a Google Photos mediante Immich. También se usará para alojar proyectos personales, respaldos automáticos, y otros servicios de utilidad para el hogar o el desarrollo.
 
 
-### Configuración Red
-**Principal**
-Se busca que servidor sea accesible desde red local estática.
+## Credenciales
+### Usuarios
+```
+usuario: ianchu0317
+contraseña: <mi contraseña xdxd>
+```
 
-**Alternativa**
-Se busca que el servidor sea accesible desde la red local con un nombre como `server.local` usando mDNS (Avahi), evitando depender de una IP estática.
+### Red local `VALO 2.4`
+La red local conectada tiene las siguientes credenciales.
+```bash
+SSID: VALO 2.4
+PASSWORD: valorant123
+```
+
+## Conexiones
+### Conexión local (LAN)
+Localmente en red del módem, el servidor se encuentra como `server.local` utilizando **mDNS (Avahi)**, así evita usar IP estático.
+
+Por ejemplo para conectar lpor comando localmente sería:
+```bash
+ssh ianchu0317@server.local
+``` 
+
+### Conexión afuera (WAN)
 
 En el futuro se configurará **DDNS** para acceder al servidor desde fuera de la red local, sin necesidad de conocer la IP pública.
 
