@@ -6,9 +6,13 @@
 - [home-server-docs](#home-server-docs)
     - [Tabla de contenido](#tabla-de-contenido)
     - [Descripción](#descripci%C3%B3n)
-    - [Información del servidor](#informaci%C3%B3n-del-servidor)
         - [Propósito](#prop%C3%B3sito)
-        - [Configuración Red](#configuraci%C3%B3n-red)
+    - [Credenciales](#credenciales)
+        - [Usuarios](#usuarios)
+        - [Red local VALO 2.4](#red-local-valo-24)
+    - [Conexiones](#conexiones)
+        - [Conexión local LAN](#conexi%C3%B3n-local-lan)
+        - [Conexión afuera WAN](#conexi%C3%B3n-afuera-wan)
     - [Cosas a hacer](#cosas-a-hacer)
     - [Servicios](#servicios)
     - [Estructura de carpetas](#estructura-de-carpetas)
@@ -37,6 +41,7 @@ La ventaja de documentar es:
 usuario: ianchu0317
 contraseña: <mi contraseña xdxd>
 ```
+Para mayor comodidad, mejor copiar llave `.pub` de ssh a `.ssh/authorized_keys`.
 
 ### Red local `VALO 2.4`
 La red local conectada tiene las siguientes credenciales.
