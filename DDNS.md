@@ -1,3 +1,20 @@
+## ACTUALIZACION
+
+El ISP tiene que habilitar IP estática pública sin CG-NAT.
+
+En cambio utilizar CloudFlare Tunnel.
+
+
+## Herramientas para probar conexión
+- https://www.yougetsignal.com/tools/open-ports/
+- `curl ifconfig.me`
+
+<br>
+
+---
+
+<br>
+
 ## DDNS Hostnames 
 
 `skibidi-server.ddns.net`
