@@ -108,3 +108,11 @@ En el futuro se configurará **DDNS** para acceder al servidor desde fuera de la
     ├── nextcloud/
     └── wireguard/
 ```
+
+Editar con `sudo` el contenido de `/srv/` por convención y medidas de seguridad.
+
+En `/home/usuario/` guardar cosas personales. 
+
+En `/etc/` van las configuaraciones de servicios. Editar con `sudo`.
+
+En `/srv/` van las carpetas y archivos de los servicios.
