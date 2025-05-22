@@ -88,3 +88,23 @@ En el futuro se configurará **DDNS** para acceder al servidor desde fuera de la
 - [ ] Hostear un blog personal.
 
 ## Estructura de carpetas
+```bash
+/
+├── home/
+│   └── usuario/
+│       ├── projects/
+│       ├── photos/
+│       ├── backups/
+│       └── .ssh/
+├── etc/
+│   └── systemd/
+├── var/
+│   └── www/
+└── srv/
+    ├── immich/
+    │   ├── config/
+    │   ├── data/
+    │   └── logs/
+    ├── nextcloud/
+    └── wireguard/
+```
